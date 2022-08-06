@@ -9,7 +9,7 @@ def machine(code):
     global line
     global data
     memory={}
-    functions={'복':input_,'편':print_,'살':get_,'복세':ifstart,'편살':ifend,'복세편살':goto,'복잡한세상편하살자':sleep,'퇴사':end,'편하':print_a}
+    functions={'복':input_,'편':print_,'살':get_,'복세':ifstart,'편살':ifend,'복세편살':goto,'복잡한세상편하게살자':sleep,'퇴사':end,'편하':print_a}
     line=0
     p=re.compile('세+')
     n=re.compile('([!]+)([?]*)|([!]*)([?]+)')

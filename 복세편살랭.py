@@ -90,6 +90,5 @@ if __name__ == '__main__':
         filelink=input('file location:')
         with open(filelink, 'r',encoding='utf-8') as file_data:
             file=file_data.read()
-        print(precleaning(file))
         machine(precleaning(file))
         print()
